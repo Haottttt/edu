@@ -1,0 +1,29 @@
+{
+  "name": "vue-edu",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue": "^3.2.13",
+    "vue-edu": "file:",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "vite": {
+    "optimizeDeps": {
+      "exclude": [
+        "vue-demi"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.2.6",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  }
+}
